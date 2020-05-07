@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 700px;
+}
+.drum-pad {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+#display {
+  color: orange;
+}
+
+.drum-links {
+  width: 33%;
+  align-items: center;
+}
+
+.drum-pad:hover {
+  background-color: orange;
+  color: white;
+  transition: all .3s ease-in-out;
+}
